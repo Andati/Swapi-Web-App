@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.character-info > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.character-info > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.character-info > tbody > tr > td {
+    border-top: 0;
+}
+
+.myinner-card {
+    border: none;
+}
+
+.list-inline {
+    margin-bottom: 0px;
+}
+
+.btn-sm {
+    margin-bottom:1px;
+}
+
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 300px;
+  z-index: 100;
+}
+
+.myfa {
+    color: red;
+}
+
+.modal-footer {
+    justify-content: center;
+    padding: 5px;
+}
