@@ -69,7 +69,7 @@ public class SwapiTest {
     }
 
     @Test
-    public void testRetrieveStudentCourse() {
+    public void testRetrieveMoreCharacterDetails() {
         HttpEntity<String> entity = new HttpEntity<>(null, headers);
         ResponseEntity<String> response = restTemplate.exchange("http://localhost:8080/profiledetails/35/",
                 HttpMethod.GET, entity, String.class);
